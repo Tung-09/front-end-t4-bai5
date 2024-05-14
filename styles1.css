@@ -1,0 +1,21 @@
+table,td{
+    border: 3px solid #E1E1E1;
+    width: 300px;
+    background-color: #F3F3F3;
+    padding: 10px;
+    border-collapse: collapse;
+}
+td:hover{
+    background-color:#0255A7;
+}
+.box2{
+   margin-top: 10px;
+   margin-right: 20px;
+   font-size: 30px;
+   border-radius: 50%;
+   
+}
+i:hover{
+    
+    background-color:#A5420F;
+}

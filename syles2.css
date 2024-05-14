@@ -1,0 +1,15 @@
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+    text-align: center;
+}
+th{
+    background-origin: border-box;
+    background-color: #019575;
+}
+td{
+    border: 3px dashed #F3F0F1;
+}

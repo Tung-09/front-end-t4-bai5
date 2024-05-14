@@ -1,0 +1,125 @@
+.box2{
+    background-color: #E65301;
+    width: 99%;
+    height: auto;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1;
+    position: sticky;
+}
+span{
+    padding: 20px;
+}
+.box1{
+    background-color: #CDCDCD;
+    width: 100%;
+    height: 1000px;
+    border-radius: 10px;
+   position: relative;
+   
+    
+}
+.box3{
+    background-color: #025CAC;
+    width: 100%;
+    height: 400px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 15px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+}
+.box3-1::first-letter{
+    font-size: 40px;
+}
+.box3-1::first-line{
+    text-transform: uppercase;
+}
+.box1-1{
+    background-color: #E65301;
+    position:relative;
+    border-radius: 10px;
+    padding: 25px;
+    width: 30px;
+    text-align: center;
+}
+.box1-2{
+    background-color: #C60100;
+    position:absolute;
+    border-radius: 10px;
+    padding: 25px;
+    width: 30px;
+    text-align: center;
+}
+.box1 .box1-2{
+    right: 10px;
+    top: 30px;
+}
+.box1-3{
+    background-color: #260DB7;
+    position:absolute;
+    border-radius: 10px;
+    padding: 25px;
+    width: 30px;
+    text-align: center;
+
+}
+.box1 .box1-3{
+    left: 40px;
+    bottom: 50px;
+}
+.box1-4{
+    background-color: #389400;
+    position: absolute;
+    border-radius:10px ;
+    padding: 25px;
+    width: 30px;
+    text-align: center;
+}
+.box1 .box1-4{
+    right: 30px;
+    bottom: 40px;
+}
+.box3-1{
+    position: relative;
+    z-index: 1;
+}
+.box3 .box3-1{
+    left: 40px;
+    top: 50px;
+}
+.box3::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color:#00000052;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    border-radius: 50%;
+}
+.box3::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    display: block;
+    background-color:#00000052;
+    background-color: ;
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
